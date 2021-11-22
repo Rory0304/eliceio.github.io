@@ -1,0 +1,566 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    <head><meta charset="UTF-8">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"><title>Elice Shortest Code Competition · 엘리스 개발팀</title><meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="description" content="초보자도 쉽게 배울 수 있는 실습형 코딩수업! 엘리스와 시작해요!
+"><meta name="generator" content="Jekyll (using style of GitBook 3.2.3)"><meta name="author" content="Suin Kim"><link rel="stylesheet" href="/assets/css/style.css">
+<link rel="stylesheet" href="/gitbook/style.css">
+<link rel="stylesheet" href="/gitbook/gitbook-plugin-fontsettings/website.css">
+<!-- <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css"> -->
+
+<link rel="stylesheet" href="/gitbook/rouge-highlight-colorful.css">
+
+<meta name="HandheldFriendly" content="true"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/gitbook/images/apple-touch-icon-precomposed-152.png">
+<link rel="shortcut icon" href="/gitbook/images/favicon.ico" type="image/x-icon">
+
+
+            <link rel="prev" href="/javascript/2021-10-24-progressive-web-app-2.html" />
+        
+
+        
+    </head>
+    <body>
+        <div class="book"><div class="book-summary">
+    <!-- <div id="book-search-input" role="search">
+        <input type="text" placeholder="Type to search" />
+    </div> -->
+    <nav role="navigation">
+        <ul class="summary">
+            
+            <li class="chapter" data-level="1.1" data-path="">
+            
+                <a href="">
+                    엘리스 개발팀
+                </a>
+            </li>
+            <li>
+                <a href="https://eli.so/join" target="_blank">
+                    엘리스팀 채용
+                </a>
+            </li>
+
+            <li class="divider"></li>
+
+            <!-- search link -->
+            <li>
+                <a href="/search">
+                    Search
+                </a>
+            </li>
+
+            <li class="divider"></li>
+
+            
+                
+                <li class="chapter active" data-level="1.2" data-path="/team/2021-11-21-elice-shortest-code-competition.html">
+                
+                    <a href="/team/2021-11-21-elice-shortest-code-competition.html">
+                        Elice Shortest Code Competition
+                    </a>
+                    
+                        
+                            <ul><li><a href="#rules">Rules</a></li><li><a href="#예시">예시</a></li><li><a href="#평가-및-시상">평가 및 시상</a></li><li><a href="#마치며">마치며…</a></li></ul>
+
+                        
+                    
+                </li>
+            
+                
+                <li class="chapter" data-level="1.1" data-path="/javascript/2021-10-24-progressive-web-app-2.html">
+                
+                    <a href="/javascript/2021-10-24-progressive-web-app-2.html">
+                        Progressive Web App (2)
+                    </a>
+                    
+                        
+                    
+                </li>
+            
+                
+                <li class="chapter" data-level="1.1" data-path="/flutter/2021-09-09-flutter-app-performance.html">
+                
+                    <a href="/flutter/2021-09-09-flutter-app-performance.html">
+                        Flutter 앱 성능 측정 및 개선 방법
+                    </a>
+                    
+                        
+                    
+                </li>
+            
+                
+                <li class="chapter" data-level="1.1" data-path="/javascript/2021-08-30-progressive-web-app.html">
+                
+                    <a href="/javascript/2021-08-30-progressive-web-app.html">
+                        Progressive Web App (1)
+                    </a>
+                    
+                        
+                    
+                </li>
+            
+        </ul>
+    </nav>
+</div><div class="book-body"><div class="body-inner">
+    <div class="book-header" role="navigation">
+        <!-- Title -->
+        <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i>
+            
+                <a href="." >Elice Shortest Code Competition</a>
+            
+        </h1>
+    </div>
+    <div class="page-wrapper" tabindex="-1" role="main">
+        <div class="page-inner">
+            <div id="book-search-results">
+                <div class="search-noresults">
+                    <section class="normal markdown-section">
+
+                        
+                            <h1 id="/team/elice-shortest-code-competition">Elice Shortest Code Competition</h1>
+                        
+
+                        
+                            <span class="meta">Author: Suin Kim</span>
+                        
+                        
+                            <span class="meta">Published: 2021-11-21 17:45:36 +0900</span>
+                        
+                        
+                            <span class="meta">Categories: Team</span>
+                        
+                        <hr />
+
+                        <p><img src="https://cdn-api.elice.io/api-attachment/attachment/9bb95be2c52c4bf6bd0de830cc432faf/image.png" alt="" /></p>
+
+<p>엘리스 개발팀에서는 매달 진행하는 개발팀 액티비티로 Elice Shortest Code Competition (ESCC) 를 개최했습니다. 이 대회는 ASCII 문자열로 엘리스의 favicon을 출력하는 가장 짧은 코드를 작성하는것이 목표로 favicon은 다음과 같은 모양입니다.</p>
+
+<center>
+<img src="https://elice.io/favicon.png" width="200" height="200" />
+</center>
+
+<p>원래는 개발팀 내에서만 진행하려 했으나 엘리서 모두 참가하기로 룰을 변경하였고 제출된 코드는 김수인 CPO와 박정국 CTO 가 Judge 를 맡으며 평가하였습니다.</p>
+
+<h1 id="rules">Rules</h1>
+<p>대회에는 다음 룰이 적용되었습니다.</p>
+
+<ul>
+  <li>언어: 엘리스 다중 언어 실습에서 지원되는 모든 언어
+    <ul>
+      <li>C, C++, C#, F#, Go, Java, JS, Kotlin, Lua, PHP, Python, Ruby, Rust, Scala, Swift 등</li>
+    </ul>
+  </li>
+  <li>입력값: 없음</li>
+  <li>출력값: 엘리스 로고</li>
+  <li>출력 방법: ASCII 로 이루어진 문자열을 STDOUT 으로 출력</li>
+  <li>제출 방법: 엘리스 플랫폼 내 테스트 과목에서 작성 후 제출</li>
+</ul>
+
+<p>출력된 로고는 judge 들에 의해 엘리스 로고로 인정이 가능한지 여부를 검토하며, 제출한 코드들은 엘리스 플랫폼 내의 부정행위 방지 시스템에 의해 다른 사람의 코드를 참고하거나 카피하였는지의 여부에 대해 검사가 진행되었습니다.</p>
+
+<h1 id="예시">예시</h1>
+
+<p>다음 예시는 두 명의 judge 에 의해 작성된 것입니다.</p>
+
+<h2 id="javascript-161-characters">JavaScript (161 characters)</h2>
+
+<p>김수인 리더에 의해 자바스크립트로 작성된 예시입니다.</p>
+
+<h3 id="코드">코드</h3>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">E</span><span class="o">=</span><span class="nx">L</span><span class="o">=&gt;</span><span class="nx">process</span><span class="p">.</span><span class="nx">stdout</span><span class="p">.</span><span class="nx">write</span><span class="p">(</span><span class="nx">L</span><span class="p">);</span><span class="nx">I</span><span class="o">=</span><span class="p">[...</span><span class="nb">Array</span><span class="p">(</span><span class="mi">20</span><span class="p">).</span><span class="nx">keys</span><span class="p">()],</span><span class="nx">I</span><span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="nx">C</span><span class="o">=&gt;</span><span class="p">{</span><span class="nx">I</span><span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="nx">R</span><span class="o">=&gt;</span><span class="nx">C</span><span class="o">*</span><span class="nx">C</span><span class="o">-</span><span class="mi">18</span><span class="o">*</span><span class="nx">C</span><span class="o">+</span><span class="mi">162</span><span class="o">+</span><span class="nx">R</span><span class="o">*</span><span class="nx">R</span><span class="o">-</span><span class="mi">18</span><span class="o">*</span><span class="nx">R</span><span class="o">&lt;</span><span class="mi">99</span><span class="p">?</span><span class="nx">E</span><span class="p">((</span><span class="nx">R</span><span class="o">+</span><span class="nx">C</span><span class="o">==</span><span class="mi">16</span><span class="o">||</span><span class="nx">C</span><span class="o">+</span><span class="nx">R</span><span class="o">==</span><span class="mi">20</span><span class="p">)</span><span class="o">&amp;&amp;</span><span class="nx">C</span><span class="o">&gt;=</span><span class="mi">5</span><span class="o">&amp;&amp;</span><span class="nx">C</span><span class="o">&lt;=</span><span class="mi">13</span><span class="p">?</span><span class="dl">"</span><span class="s2">  </span><span class="dl">"</span><span class="p">:</span><span class="dl">"</span><span class="s2">##</span><span class="dl">"</span><span class="p">):</span><span class="nx">E</span><span class="p">(</span><span class="dl">"</span><span class="s2">  </span><span class="dl">"</span><span class="p">)),</span><span class="nx">E</span><span class="p">(</span><span class="dl">"</span><span class="se">\n</span><span class="dl">"</span><span class="p">)});</span>
+</code></pre></div></div>
+
+<h3 id="실행-결과">실행 결과</h3>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>node javascript/main.js
+          <span class="c">##################            </span>
+        <span class="c">######################          </span>
+    <span class="c">##############################      </span>
+    <span class="c">##############################      </span>
+  <span class="c">##################################    </span>
+<span class="c">######################  ######  ######  </span>
+<span class="c">####################  ######  ########  </span>
+<span class="c">##################  ######  ##########  </span>
+<span class="c">################  ######  ############  </span>
+<span class="c">##############  ######  ##############  </span>
+<span class="c">############  ######  ################  </span>
+<span class="c">##########  ######  ##################  </span>
+<span class="c">########  ######  ####################  </span>
+<span class="c">######  ######  ######################  </span>
+  <span class="c">##################################    </span>
+    <span class="c">##############################      </span>
+    <span class="c">##############################      </span>
+        <span class="c">######################          </span>
+          <span class="c">##################            </span>
+</code></pre></div></div>
+
+<h3 id="해설">해설</h3>
+
+<p>20 x 20 의 픽셀로 원을 렌더하며 중간의 수식 <code class="language-plaintext highlighter-rouge">R=&gt;C*C-18*C+162+R*R-18*R&lt;99</code> 는 좌표 (C, R) 에 대해 수식 <code class="language-plaintext highlighter-rouge">(C-9)^2 + (R-9)^2 &lt; 100</code> (<code class="language-plaintext highlighter-rouge">100</code> 이라는 숫자는 1 글자를 줄이기 위해 <code class="language-plaintext highlighter-rouge">99</code> 로 치환하였습니다) 의 체크로 해당 좌표가 (9, 9) 를 중심으로 가지는 반지름 √99 원 안에 있는지 판별하는 역할을 합니다.
+또한 // 를 x+y = c 의 일차함수 형태에서 c 값을 변형하면서 작성하였습니다.</p>
+
+<center>
+<img src="https://cdn-api.elice.io/api-attachment/attachment/ce5036d38a8f4072a36ad7a4fad7b9f4/image.png" width="576" height="393" />
+</center>
+
+<p>해설을 쓰다 보니, 수식 <code class="language-plaintext highlighter-rouge">R=&gt;C*C-18*C+162+R*R-18*R&lt;99</code> 는 <code class="language-plaintext highlighter-rouge">R=&gt;C*C-18*C+63+R*R-18*R&lt;0</code> 으로 바꾸면 2 글자를 더 줄였을 수 있을 것 같네요 🦝</p>
+
+<h2 id="python-109-characters">Python (109 characters)</h2>
+
+<p>박정국 리더에 의해 작성된 파이썬 기반 예시 코드입니다.</p>
+
+<h3 id="코드-1">코드</h3>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">x</span><span class="o">=</span><span class="p">[</span><span class="s">' '</span><span class="o">*</span><span class="p">(</span><span class="mi">6</span><span class="o">-</span><span class="n">i</span><span class="o">//</span><span class="mi">2</span><span class="p">)</span><span class="o">+</span><span class="s">'#'</span><span class="o">*</span><span class="n">i</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span><span class="p">[</span><span class="mi">5</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">9</span><span class="p">]];</span><span class="k">print</span><span class="p">(</span><span class="s">'</span><span class="se">\n</span><span class="s">'</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="n">x</span><span class="o">+</span><span class="p">[</span><span class="s">'#'</span><span class="o">*</span><span class="p">(</span><span class="mi">5</span><span class="o">-</span><span class="n">i</span><span class="p">)</span><span class="o">+</span><span class="s">'  ##'</span><span class="o">*</span><span class="mi">2</span><span class="o">+</span><span class="s">'#'</span><span class="o">*</span><span class="n">i</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">]]</span><span class="o">+</span><span class="n">x</span><span class="p">[::</span><span class="o">-</span><span class="mi">1</span><span class="p">]))</span>
+</code></pre></div></div>
+
+<h3 id="실행-결과-1">실행 결과</h3>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>python python3/main.py
+    <span class="c">#####</span>
+   <span class="c">#######</span>
+  <span class="c">#########</span>
+<span class="c">####  ##  ###</span>
+<span class="c">###  ##  ####</span>
+<span class="c">##  ##  #####</span>
+  <span class="c">#########</span>
+   <span class="c">#######</span>
+    <span class="c">#####</span>
+</code></pre></div></div>
+
+<h3 id="해설-1">해설</h3>
+
+<p>첫 번째 줄을 실행하여 변수 <code class="language-plaintext highlighter-rouge">x</code> 에 다음 리스트를 할당합니다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="s">'    #####'</span><span class="p">,</span> <span class="s">'   #######'</span><span class="p">,</span> <span class="s">'  #########'</span><span class="p">]</span>
+</code></pre></div></div>
+
+<p>그 뒤, 3개의 줄에 걸쳐,</p>
+<ul>
+  <li>4개의 <code class="language-plaintext highlighter-rouge">#</code>, 공백, 2개의 <code class="language-plaintext highlighter-rouge">#</code>, 공백, 3개의 <code class="language-plaintext highlighter-rouge">#</code></li>
+  <li>3개의 <code class="language-plaintext highlighter-rouge">#</code>, 공백, 2개의 <code class="language-plaintext highlighter-rouge">#</code>, 공백, 4개의 <code class="language-plaintext highlighter-rouge">#</code></li>
+  <li>2개의 <code class="language-plaintext highlighter-rouge">#</code>, 공백, 2개의 <code class="language-plaintext highlighter-rouge">#</code>, 공백, 5개의 <code class="language-plaintext highlighter-rouge">#</code>
+을 만듭니다.</li>
+</ul>
+
+<p>마지막으로, 처음으로 만든 <code class="language-plaintext highlighter-rouge">x</code> 와 중간에 만든 리스트, 그리고 <code class="language-plaintext highlighter-rouge">x</code>를 거꾸로 나열한 문자열을 출력합니다.</p>
+
+<h1 id="평가-및-시상">평가 및 시상</h1>
+
+<p>엘리서들은 일주일 간 코드를 제출할 시간이 주어졌고 제출한 코드에 대해 참가자들의 발표 및 설명이 이루어졌습니다. 코드 대회 참가자들은 준비한 점심을 나누어 먹으며 다른 사람들의 참신한 아이디어를 감상했습니다.</p>
+
+<h2 id="노력은-가상-149-characters">노력은 가상 (149 characters)</h2>
+
+<p>프로그래밍이 업인 개발팀에 비해 숙련도가 상대적으로 낮을 비-개발팀원을 위한 상으로 참신한 아이디어가 돋보인 코드입니다.</p>
+
+<p><strong>수상: 김경민 (Tech Content 팀)</strong></p>
+
+<h3 id="코드-2">코드</h3>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">p</span><span class="o">=</span><span class="k">print</span><span class="p">;</span><span class="n">r</span><span class="o">=</span><span class="nb">range</span><span class="p">;</span><span class="n">s</span><span class="o">=</span><span class="s">"#"</span><span class="p">;</span><span class="n">b</span><span class="o">=</span><span class="s">" "</span>
+<span class="n">m</span><span class="o">=</span><span class="p">[</span><span class="n">b</span><span class="o">*</span><span class="n">i</span><span class="o">+</span><span class="n">s</span><span class="o">*</span><span class="p">(</span><span class="mi">20</span><span class="o">-</span><span class="mi">2</span><span class="o">*</span><span class="n">i</span><span class="p">)</span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">r</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">4</span><span class="p">)]</span>
+<span class="n">p</span><span class="p">(</span><span class="s">'</span><span class="se">\n</span><span class="s">'</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="n">m</span><span class="p">[::</span><span class="o">-</span><span class="mi">1</span><span class="p">]))</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">r</span><span class="p">(</span><span class="mi">8</span><span class="p">):</span>
+	<span class="n">p</span><span class="p">(</span><span class="n">s</span><span class="o">*</span><span class="p">(</span><span class="mi">11</span><span class="o">-</span><span class="n">i</span><span class="p">)</span><span class="o">+</span><span class="s">"  ##  "</span><span class="o">+</span><span class="n">s</span><span class="o">*</span><span class="p">(</span><span class="n">i</span><span class="o">+</span><span class="mi">3</span><span class="p">))</span>
+<span class="n">p</span><span class="p">(</span><span class="s">'</span><span class="se">\n</span><span class="s">'</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="n">m</span><span class="p">))</span>
+</code></pre></div></div>
+
+<h3 id="결과">결과</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ python3 -u python3/main.py
+   ##############
+  ################
+ ##################
+###########  ##  ###
+##########  ##  ####
+#########  ##  #####
+########  ##  ######
+#######  ##  #######
+######  ##  ########
+#####  ##  #########
+####  ##  ##########
+ ##################
+  ################
+   ##############
+</code></pre></div></div>
+
+<h3 id="평가">평가</h3>
+
+<p>Python 언어로 작성된 프로그램으로 <code class="language-plaintext highlighter-rouge">print</code>, <code class="language-plaintext highlighter-rouge">range</code> 에 대한 short link 를 이용하여 코드의 길이를 짧게 만들었습니다. Python 언어의 특성 상 여러 개의 문자열을 짧은 코드로 출력할 수 있는데, 예를 들면 <code class="language-plaintext highlighter-rouge">'#' * 3</code> 과 같은 syntax 로 <code class="language-plaintext highlighter-rouge">###</code> 를 출력할 수 있고, 이런 특성을 잘 활용했습니다.</p>
+
+<p>원을 그리기 위해 공백을 linear 하게 모델링 하였으나 20 글자 정도의 길이에서는 문제가 되지 않았습니다.</p>
+
+<h2 id="예술상-250-characters">예술상 (250 characters)</h2>
+
+<p>다른 출품작들에 비해 원의 표현이 아름다웠기 때문에 예술상에 선정되었습니다.</p>
+
+<p><strong>수상: 유인성 (Frontend 팀)</strong></p>
+
+<h3 id="코드-3">코드</h3>
+
+<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include&lt;iostream&gt;
+#include&lt;iomanip&gt;
+#include&lt;cmath&gt;
+</span><span class="n">using</span> <span class="n">namespace</span> <span class="n">std</span><span class="p">;</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(){</span><span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span><span class="n">i</span><span class="o">&lt;</span><span class="mi">11</span><span class="p">;</span><span class="n">i</span><span class="o">++</span><span class="p">){</span><span class="k">if</span><span class="p">(</span><span class="n">i</span><span class="o">&lt;</span><span class="mi">3</span><span class="o">||</span><span class="n">i</span><span class="o">&gt;</span><span class="mi">7</span><span class="p">){</span><span class="n">cout</span><span class="o">&lt;&lt;</span><span class="n">setw</span><span class="p">(</span><span class="n">abs</span><span class="p">(</span><span class="n">i</span><span class="o">-</span><span class="mi">5</span><span class="p">)</span><span class="o">*-</span><span class="mi">2</span><span class="o">+</span><span class="mi">24</span><span class="p">)</span><span class="o">&lt;&lt;</span><span class="n">string</span><span class="p">(</span><span class="n">abs</span><span class="p">(</span><span class="n">i</span><span class="o">-</span><span class="mi">5</span><span class="p">)</span><span class="o">*-</span><span class="mi">4</span><span class="o">+</span><span class="mi">29</span><span class="p">,</span><span class="sc">'@'</span><span class="p">);}</span><span class="k">else</span><span class="p">{</span><span class="n">cout</span><span class="o">&lt;&lt;</span><span class="n">string</span><span class="p">(</span><span class="mi">11</span><span class="o">-</span><span class="n">i</span><span class="p">,</span><span class="sc">'@'</span><span class="p">)</span><span class="o">&lt;&lt;</span><span class="s">"..@@@.."</span><span class="o">&lt;&lt;</span><span class="n">string</span><span class="p">(</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span><span class="sc">'@'</span><span class="p">);}</span><span class="n">cout</span><span class="o">&lt;&lt;</span><span class="sc">'\n'</span><span class="p">;}}</span>
+</code></pre></div></div>
+
+<h3 id="출력-결과">출력 결과</h3>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>g++ <span class="nt">-o</span> main <span class="nt">-O2</span> <span class="nt">-Wall</span> cpp/main.cpp
+<span class="nv">$ </span><span class="nb">stdbuf</span> <span class="nt">-i0</span> <span class="nt">-o0</span> <span class="nt">-e0</span> ./main
+     @@@@@@@@@
+   @@@@@@@@@@@@@
+ @@@@@@@@@@@@@@@@@
+@@@@@@@@..@@@..@@@@
+@@@@@@@..@@@..@@@@@
+@@@@@@..@@@..@@@@@@
+@@@@@..@@@..@@@@@@@
+@@@@..@@@..@@@@@@@@
+ @@@@@@@@@@@@@@@@@
+   @@@@@@@@@@@@@
+     @@@@@@@@@
+</code></pre></div></div>
+
+<h3 id="평가-1">평가</h3>
+
+<p>타 출품작과 마찬가지로 원에 대한 모델링을 linear 하게 하였으나, 모델의 offset 을 적절하게 잡아 1-2-3 번째 라인의 경우 공백의 수가 2가 차이나고, 3-4번째 라인의 공백의 수가 1이 차이나게 되어 더욱 원에 가까운 출력 결과를 얻을 수 있었습니다. 추가로, 출력 문자 <code class="language-plaintext highlighter-rouge">@</code> 와 <code class="language-plaintext highlighter-rouge">.</code> 의 선택이 더욱 로고를 부드럽게 보이게 했습니다.</p>
+
+<h2 id="최우수상-92-characters">최우수상 (92 characters)</h2>
+
+<p>기술적 측면 및 코드의 짧음 모두 다른 출품작에 비해 가장 우수하였던 코드입니다.</p>
+
+<p><strong>수상: 조민석 (Backend 팀)</strong></p>
+
+<h3 id="코드-4">코드</h3>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="k">print</span><span class="p">((</span><span class="s">'§'</span><span class="o">*</span><span class="n">n</span><span class="p">).</span><span class="n">center</span><span class="p">(</span><span class="mi">9</span><span class="p">))</span><span class="k">for</span> <span class="n">n</span> <span class="ow">in</span><span class="p">[</span><span class="mi">5</span><span class="p">,</span><span class="mi">9</span><span class="p">,</span><span class="mi">9</span><span class="p">,</span><span class="mi">9</span><span class="p">,</span><span class="mi">5</span><span class="p">]]</span>
+<span class="p">[</span><span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">'</span><span class="se">\x1b</span><span class="s">[</span><span class="si">{</span><span class="mi">8</span><span class="o">-</span><span class="n">x</span><span class="si">}</span><span class="s">;</span><span class="si">{</span><span class="n">x</span><span class="si">}</span><span class="s">H § '</span><span class="p">)</span><span class="k">for</span> <span class="n">x</span> <span class="ow">in</span><span class="p">[</span><span class="mi">5</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">3</span><span class="p">]]</span>
+</code></pre></div></div>
+
+<h3 id="출력-결과-1">출력 결과</h3>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>python3 <span class="nt">-u</span> python3/main.py
+  §§§§§  
+§§§§ § §§
+§§§ § §§§
+§§ § §§§§
+  §§§§§
+</code></pre></div></div>
+
+<h3 id="평가-및-해설">평가 및 해설</h3>
+
+<p>코드의 길이를 극단적으로 줄이기 위해 로고의 사이즈는 세로x가로 기준 5x9 글자로 제한하였습니다. 가로의 길이가 10글자 이상이 되면, 이 코드에서 사용한 메서드에 들어가는 파라미터에 <code class="language-plaintext highlighter-rouge">10</code> 이라는 값을 입력하기 위해 <code class="language-plaintext highlighter-rouge">9</code> 에 비교하면 1바이트가 추가되기 때문입니다.</p>
+
+<p>첫 번째 줄은 <code class="language-plaintext highlighter-rouge">[5, 9, 9, 9, 5]</code> 라는 리스트를 만들고 이 리스트 안의 원소들에 대해 iteration 을 수행하면서 각각의 원소에 대해 <code class="language-plaintext highlighter-rouge">('§'*n).center(9)</code> 라는 명령어를 수행하고 이것을 출력합니다.</p>
+
+<p><code class="language-plaintext highlighter-rouge">center</code> 메서드는 Python string의 빌트인 메서드로, <code class="language-plaintext highlighter-rouge">width</code> 값을 받아 width-길이의 문자열을 만들고 이 가운데에 해당 메서드를 호출한 문자열을 위치시킵니다. 예를 들면,</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt;&gt;&gt; '###'.center(7)
+'  ###  '
+</code></pre></div></div>
+
+<p>이로서 <code class="language-plaintext highlighter-rouge">#</code> 에 대해 [5,9,9,9,5] 개의 길이를 가진 문자열을 생성하고 각각의 문자열을 길이가 9인 공백의 가운데에 위치시킬 수 있게 됩니다. 여기까지 진행한 뒤의 결과값은 다음과 같습니다.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  §§§§§  
+§§§§§§§§§
+§§§§§§§§§
+§§§§§§§§§
+  §§§§§
+</code></pre></div></div>
+
+<p>다음으로 이 코드에서 사용된 재미있는 트릭은 ANSI escape sequence 를 이용한 것으로 엘리스의 실행 환경이 쉘을 진행한다는 것을 이용한 것입니다. 일반적으로 이 escape sequence 는 <a href="https://tforgione.fr/posts/ansi-escape-codes/#the-special-character">쉘에서 컬러나 텍스트의 스타일을 정의하는데 자주 사용됩니다</a>. <a href="https://tldp.org/HOWTO/Bash-Prompt-HOWTO/x361.html">특정한 escape sequence</a> 를 사용하면, 커서를 원하는 위치에 옮길 수 있습니다. 이 코드에서 사용한 방식은 커서를 특정 line과 column 에 위치하게 하는 것으로 다음과 같습니다.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- Position the Cursor:
+  \033[&lt;L&gt;;&lt;C&gt;H
+     Or
+  \033[&lt;L&gt;;&lt;C&gt;f
+  puts the cursor at line L and column C.
+</code></pre></div></div>
+
+<p>프로그램을 실행하면서 명령어가 bash 에 출력되므로, 커서를,</p>
+<ul>
+  <li>(3, 5)</li>
+  <li>(4, 4)</li>
+  <li>(5, 3)
+에 순차적으로 위치시키면서 문자열 ` § ` 을 출력하면 이미 출력된 원 위에 이 문자열을 덮어씌우면서 엘리스 로고에서 // 를 출력할 수 있게 됩니다. 따라서 두 번째 라인을 실행한 이후의 결과는</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  §§§§§  
+§§§§ § §§
+§§§ § §§§
+§§ § §§§§
+  §§§§§
+</code></pre></div></div>
+
+<p>로 엘리스 로고가 만들어졌습니다.</p>
+
+<p><img src="https://cdn-api.elice.io/api-attachment/attachment/365f6cc9eb4740fda4822b04eb47369d/image.png" alt="" /></p>
+
+<h2 id="notable-373-characters">Notable (373 characters)</h2>
+
+<p>이 코드는 박정국 리더에 의해 작성된 것으로 주어진 엘리스 로고를 완벽하게 출력하는것을 유지하면서 코드의 길이를 짧게 하는 것을 목표로 하였습니다.</p>
+
+<h3 id="코드-5">코드</h3>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">pip</span><span class="p">;</span><span class="n">pip</span><span class="p">.</span><span class="n">main</span><span class="p">([</span><span class="s">'install'</span><span class="p">,</span><span class="s">'base65536'</span><span class="p">,</span><span class="s">'climage'</span><span class="p">]);</span>
+<span class="kn">import</span> <span class="nn">site</span><span class="p">;</span><span class="n">site</span><span class="p">.</span><span class="n">main</span><span class="p">();</span>
+<span class="kn">import</span> <span class="nn">climage</span> <span class="k">as</span> <span class="n">c</span><span class="p">,</span><span class="n">base65536</span> <span class="k">as</span> <span class="n">b</span><span class="p">;</span>
+<span class="nb">open</span><span class="p">(</span><span class="s">'.png'</span><span class="p">,</span><span class="s">'wb'</span><span class="p">).</span><span class="n">write</span><span class="p">(</span><span class="n">b</span><span class="p">.</span><span class="n">decode</span><span class="p">(</span><span class="s">'薉籎㸍㸚㐀䄀絉蝄㐀匀㐀匀㨈㐀瀀𣐰㒢㐀𓄁籒㑂𥒮𦼜㐀㠀癧癍㐀𡖱𨈋㥡㐀㴀絰𓅙㐀𠰝㐀𠰝鈁䞢㒁㔀縟癄絔𣭋𦆖𤠊䀰𦆆𠄊𤜾𡽋氏𤜄𦳃𖢓𥧥礌緝𣄥𡱍𧛴䳝𥎝𨋗杶𨓻㡢𣳬褝𐙱㟷杔𧝘𡊚𣡂蜉徜𒇅𧸛𡴓霐𣼨𥶃蕪憃𢯄𧮧𨃄𤫾𢪵𣚞懿抮暍挟䲍䨟𡒼燺𠗄𓍏𣺸磛肋溍𢍷靸𦁮𖧓𡬏續𡂮䟚𦅎倴𦪨奉肉抐𢒖䓦𧺑𣨺𡭐奃𥲶驂淌𢚾飊䏵簄𧨹𓅏召揰𦰽𦕋𠓪慣𤟍𥄹𣾋𡵻𤲻𥷡岉𢣦𤫔𡿬𥫅𢷮覆𧑓㤚懶𠌞𔑒㖮䮋𢵑𐛾𤠒𣃞𢍓ꍊ𣂠𣶏褓𦪊嫄𦵢𣙺𦵑𥷈𡣖𠵑𢥈𐚗慖𠫆𥚛頧㯌䞿𢂏𢵰爘㐀㐀穉祎瞮𠡠'</span><span class="p">));</span>
+<span class="k">print</span><span class="p">(</span><span class="n">c</span><span class="p">.</span><span class="n">convert</span><span class="p">(</span><span class="s">'.png'</span><span class="p">))</span>
+</code></pre></div></div>
+
+<h3 id="실행-결과-2">실행 결과</h3>
+
+<p>다음과 같이 터미널에서 한 글자당 한 픽셀의 이미지가 출력되는 것을 확인할 수 있습니다.</p>
+
+<p><img src="https://cdn-api.elice.io/api-attachment/attachment/84415e552361417c8c878dc05be81777/image.png" alt="" /></p>
+
+<h3 id="해설-2">해설</h3>
+
+<p>가장 첫 줄이 하는 것은 기본 환경에서 제공되지 않는 패키지인 <code class="language-plaintext highlighter-rouge">base65536</code> 및 <code class="language-plaintext highlighter-rouge">climage</code> 를 설치하는 것입니다. <code class="language-plaintext highlighter-rouge">base65536</code> 은 UTF-32 인코드된 텍스트에서 바이너리 데이터를 표현하기 위한 인코딩 방식으로 유니코드에서 사용하는데에 최적화되어 있습니다. 또한 <code class="language-plaintext highlighter-rouge">climage</code> 는 CLI 환경에서 이미지를 터미널에 프린트 할 수 있습니다.</p>
+
+<p>이 코드가 진행하는 것은 엘리스 로고를 터미널에서 표현할 수 있는 정도로  downscale 한 이미지를 base65536 으로 인코딩 하고, 이것을 png 파일에 저장하여 <code class="language-plaintext highlighter-rouge">climage</code> 라이브러리를 이용하여 출력하는 것입니다. 본 대회에서는 바이트 수가 아니라 문자열 (character) 수를 카운트 하므로, 이 룰을 hack 한 훌륭한 솔루션이라고 할 수 있습니다.</p>
+
+<h1 id="마치며">마치며…</h1>
+
+<p>본 대회는 해외의 ISCCC 대회에 영감을 받아 시작하였는데, 기대대로 엘리서들의 창의력이 제가 생각했던 것보다 매우 뛰어나서 즐거웠습니다. 단순하게 원이나 선을 계산하는 방식에서 최적화가 이루어진 것 이상으로 커서를 이동하거나 base65536 을 이용하여 코드 수를 줄인 것 등을 보며 개발자로서 이런 생각을 할 수 있는 동료와 일하는 것이 행복하다고 느꼈습니다.</p>
+
+                    </section>
+                </div>
+
+                 <!--<div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>-->
+            </div>
+        </div>
+    </div>
+</div>
+
+                    <a href="/javascript/2021-10-24-progressive-web-app-2.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Progressive Web App (2)">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+            </div>
+
+            <script>
+            var gitbook = gitbook || [];
+            gitbook.push(function() {
+                gitbook.page.hasChanged({
+    "page": {
+        "title": "Introduction",
+        "level": "1.1",
+        "depth": 1,
+        
+        "dir": "ltr"
+    },    "config": {
+        "plugins": ["fontsettings", "highlight", "livereload", "lunr", "search", "sharing", "theme-default", "livereload"],
+        "styles": {
+            "ebook": "styles/ebook.css",
+            "epub": "styles/epub.css",
+            "mobi": "styles/mobi.css",
+            "pdf": "styles/pdf.css",
+            "print": "styles/print.css",
+            "website": "styles/website.css"
+        },
+        "pluginsConfig": {
+            "fontsettings": {
+                "family": "sans",
+                "size": 2,
+                "theme": "white"
+            },
+            "highlight": {},
+            "livereload": {},
+            "lunr": {
+                "ignoreSpecialCharacters": false,
+                "maxIndexSize": 1000000
+            },
+            "search": {},
+            "sharing": {
+                "all": ["facebook", "google", "twitter", "weibo", "instapaper"],
+                "facebook": true,
+                "google": false,
+                "instapaper": false,
+                "twitter": true,
+                "vk": false,
+                "weibo": false
+            },
+            "theme-default": {
+                "showLevel": false,
+                "styles": {
+                    "ebook": "styles/ebook.css",
+                    "epub": "styles/epub.css",
+                    "mobi": "styles/mobi.css",
+                    "pdf": "styles/pdf.css",
+                    "print": "styles/print.css",
+                    "website": "styles/website.css"
+                }
+            }
+        },
+        "theme": "default",
+        "author": "Tao He",
+        "pdf": {
+            "pageNumbers": true,
+            "fontSize": 12,
+            "fontFamily": "Arial",
+            "paperSize": "a4",
+            "chapterMark": "pagebreak",
+            "pageBreaksBefore": "/",
+            "margin": {
+                "right": 62,
+                "left": 62,
+                "top": 56,
+                "bottom": 56
+            }
+        },
+        "structure": {
+            "langs": "LANGS.md",
+            "readme": "README.md",
+        },
+        "variables": {},
+        "title": "엘리스 개발팀",
+        "language": "en",
+        "gitbook": "*"
+    },
+    "file": {
+        "path": "_posts/2021-11-21-elice-shortest-code-competition.markdown",
+        "mtime": "2021-11-21 17:45:36 +0900",
+        "type": "markdown"
+    },
+    "gitbook": {
+        "version": "3.2.3",
+        "time": "2021-11-22 14:25:25 +0900"
+    },
+    "basePath": "",
+    "book": {
+        "language": ""
+    }
+});
+            });
+            </script>
+        </div><script src="/gitbook/gitbook.js"></script>
+<script src="/gitbook/theme.js"></script>
+
+<script src="/gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+<script src="/gitbook/gitbook-plugin-sharing/buttons.js"></script>
+
+<!-- <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+<script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+<script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+<script src="../gitbook/gitbook-plugin-search/search.js"></script> -->
+
+</body>
+</html>

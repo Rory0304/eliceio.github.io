@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    <head>
+
+        {%- include head.html -%}
+
+        {% assign posts = site.posts %}
+
+        {% if posts %}
+            <script>
+                location.href = "{{site.baseurl}}{{posts.first.url}}";
+            </script>
+        {% endif %}
+    </head>
+</html>
