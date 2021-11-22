@@ -3,3 +3,10 @@
     font-size: 14px;
     display: block;
 }
+
+figcaption {
+    color: #666;
+    font-size: 14px !important;
+    font-style: italic;
+    margin-bottom: 16px;
+}

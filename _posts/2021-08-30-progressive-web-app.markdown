@@ -13,7 +13,7 @@ PWA란 무엇인가?
 
 PWA (Progressive Web App) 은 Google I/O 2016에서 발표한 기술로, 웹과 네이티브 앱의 기능 중 이점만을 가져올 수 있도록 수 많은 기술과 패턴을 사용해 개발된 웹앱을 총칭합니다.
 
-{% include image.html url="https://cdn-api.elice.io/api-attachment/attachment/d30002b070c0409ba623e641628ffb22/image.png" description="https://web.dev/what-are-pwas/" %}
+{% include image.html url="https://cdn-api.elice.io/api-attachment/attachment/d30002b070c0409ba623e641628ffb22/image.png" description="https://web.dev/what-are-pwas/" width="385" height="365" %}
 
 위 그림에서 볼 수 있는것과 같이 PWA는 웹 앱의 발견 용이성과 네이티브 앱의 강력함을 모두 제공하는 것을 목표로 합니다. 웹 앱의 경우 네이티브 앱에 비해 발견이 쉬운 점에는 다음과 같은 특성이 있습니다.
 
@@ -61,7 +61,7 @@ PWA의 단점
 {% include image.html url="https://cdn-api.elice.io/api-attachment/attachment/feaf151173164cd599f0c27e7b4d3bc2/image.png" description="https://caniuse.com/?search=PWA" %}
 
 
-{% include image.html url="https://cdn-api.elice.io/api-attachment/attachment/451b9b56ffe64927a6a68b3c5b2227dd/image.png" description="https://crustlab.com/blog/progressive-web-apps-state-2020-2021/" %}
+{% include image.html url="https://cdn-api.elice.io/api-attachment/attachment/451b9b56ffe64927a6a68b3c5b2227dd/image.png" description="https://crustlab.com/blog/progressive-web-apps-state-2020-2021/" width="385" height="686" %}
 
 Service Worker
 ==============
@@ -84,7 +84,7 @@ SW를 웹 사이트에서 사용하기 위해서는 먼저 SW를 등록 (registe
 
 SW가 설치된 경우, `활성화` 단계가 바로 뒤따르게 되며 이 때 이전 캐시를 어떻게 처리할지 수동으로 처리할 수도 있습니다. 활성화된 SW는 이전 SW에 의해 로드된 페이지를 제외한 새로운 페이지에 대한 모든 제어를 진행하게 됩니다. 이 상태의 SW는 1) fetch 및 메시지 이벤트를 핸들링하거나 2) 멈춰있게 됩니다.
 
-{% include image.html url="https://cdn-api.elice.io/api-attachment/attachment/2fcd29cfc79943738dfbf0f5ce2eeddf/image.png" description="https://developers.google.com/web/fundamentals/primers/service-workers" %}
+{% include image.html url="https://cdn-api.elice.io/api-attachment/attachment/2fcd29cfc79943738dfbf0f5ce2eeddf/image.png" description="https://developers.google.com/web/fundamentals/primers/service-workers" width="351" height="342" %}
 
 Service Worker 의 실행 조건
 ======================
@@ -95,12 +95,12 @@ Service Worker 를 설치하고 실행하기 위해서는 첫 번째로 브라�
 
 마지막으로 `manifest.json` 의 유무가 있습니다. [Web app manifest](https://web.dev/add-manifest/) 는 JSON 파일로 PWA에 대한 정보와 현재 웹 사이트가 유저의 데스크탑이나 모바일 장치에 어떻게 설치되어야 하는지에 대한 정보를 저장한 파일입니다. 이 파일은 앱 이름, 아이콘, 그리고 앱의 URL 정보 등을 포함하고 있습니다. 아래는 엘리스가 PWA 앱을 위해 사용중인 파일의 예시입니다.
 
-```json
+```js
 {  
-  "short\_name": "Elice", // 유저의 홈 스크린에 나타날 이름  
+  "short_name": "Elice", // 유저의 홈 스크린에 나타날 이름  
   "name": "Elice", // 앱의 전체 이름  
-  "start\_url": ".", // 앱 실행시 이동할 route  
-  "icons": \[ // 아이콘 asset 들  
+  "start_url": ".", // 앱 실행시 이동할 route  
+  "icons": [ // 아이콘 asset 들  
     {  
       "src": "logo512.png",  
       "sizes": "512x512",  
@@ -116,10 +116,10 @@ Service Worker 를 설치하고 실행하기 위해서는 첫 번째로 브라�
       "sizes": "64x64 32x32 16x16",  
       "type": "image/x-icon"  
     }  
-  \],  
+  ],  
   "display": "minimal-ui", // fullscreen, standalone, minimal-ui 중 하나  
-  "theme\_color": "#524fa1", // 툴바에 표시될 색상  
-  "background\_color": "#f6f7f8" // Splash 스크린에 보일 배경 색상  
+  "theme_color": "#524fa1", // 툴바에 표시될 색상  
+  "background_color": "#f6f7f8" // Splash 스크린에 보일 배경 색상  
 }
 ```
 

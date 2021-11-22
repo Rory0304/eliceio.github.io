@@ -69,7 +69,7 @@ Service worker를 등록하고 그 뒤의 이벤트를 동시에 처리할 수 �
 
 이런 경우에는 Service Worker의 새로운 버전이 로드되었고 설치되었더라도 `WAITING` state에서 모든 웹앱이 종료될때까지 대기하게 되며, 사용자는 새 버전을 실행할 수 없게 됩니다. 이러한 정책은 탭 간의 앱의 consistency 를 지키는데에는 잘 작동하지만, 웹앱에 버그가 있어 빠르게 핫픽스를 진행해야 하는 상황에서는 유저가 새로고침이라는 직관적인 행동을 하더라도 버그가 있는 기존 웹앱이 계속 로드되는 심각한 문제가 발생하게 됩니다.
 
-![PWA를 사용하면 유저에게 새 버전 알림을 진행하고, 탭 간 버전의 consistency도 유지할 수 있습니다.](https://cdn-api.elice.io/api-attachment/attachment/a56434d67814443d95c9a2c761df0dc1/image.png)
+{% include image.html url="https://cdn-api.elice.io/api-attachment/attachment/a56434d67814443d95c9a2c761df0dc1/image.png" description="PWA를 사용하면 유저에게 새 버전 알림을 진행하고, 탭 간 버전의 consistency도 유지할 수 있습니다." width="350" height="160" %}
 
 이를 해결하기 위해서는 버그를 해결하는 소프트웨어가 릴리즈된 직후,
 
